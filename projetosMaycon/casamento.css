@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navegacao {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.menu-casamento {
+    border-top: 0.6px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
